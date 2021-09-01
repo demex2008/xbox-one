@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.xBoxGhost" name="[COLOR lime]Ghost XBOX [/COLOR]" 
+version="2.0.2" provider-name="Ghost">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+	<description lang="en">http://ghost-repo.de/</description>
+		<disclaimer lang="en">Repo findet ihr hier http://ghost-repo.de/</disclaimer>
+		<platform>all</platform>
+		<website>http://ghost-repo.de/</website>
+	</extension>
+</addon>
