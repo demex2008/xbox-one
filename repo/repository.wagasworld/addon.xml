@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.wagasworld" name="[COLOR white]Wagas[/COLOR] [COLOR red]World[/COLOR] [COLOR white]REPOSITORY[/COLOR]" version="1.0.0" provider-name="[COLOR red]Waga[/COLOR]">
+    <extension point="xbmc.addon.repository" name="WAGASWORLD REPOSITORY">
+		<info compressed="false">http://absolut-kodi.com/WagaRepository/addons.xml</info>
+		<checksum>http://absolut-kodi.com/WagaRepository/addons.xml.md5</checksum>
+		<datadir zip="true">http://absolut-kodi.com/WagaRepository/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR white]Wagas[/COLOR] [COLOR red]World[/COLOR]</summary>
+        <description>[COLOR white]Waga[/COLOR] 
+[COLOR red]WagasWorld[/COLOR] [COLOR white]Repo[/COLOR]</description>
+        <platform>all</platform>
+    </extension>
+</addon>

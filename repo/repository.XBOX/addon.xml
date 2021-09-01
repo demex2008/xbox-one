@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.XBOX" name="[COLOR lime]XBOX[/COLOR] [COLOR red]Repository[/COLOR]" version="1.1.4" provider-name="[COLOR gold]demex2008[/COLOR]">
+	<extension point="xbmc.addon.repository" name="XBOX Repository">
+		<info compressed="true">https://raw.githubusercontent.com/demex2008/XBOX/master/repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/demex2008/XBOX/master/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/demex2008/XBOX/master/repo</datadir>
+		<artdir>https://raw.githubusercontent.com/demex2008/XBOX/master/repo</artdir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+	<summary>[COLOR lime]XBOX[/COLOR] [COLOR red]Repository[/COLOR]
+</summary>
+	<description>[COLOR lime]XBOX[/COLOR] [COLOR red]Repository[/COLOR]
+</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+    <assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>

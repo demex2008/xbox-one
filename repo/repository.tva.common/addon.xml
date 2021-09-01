@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.tva.common" name="TVADDONS.CO Resolvers Repository" version="4.0.0" provider-name="tvaddons">
+    <extension point="xbmc.addon.repository" name="TVADDONS.CO Resolvers Repository">
+    <dir>
+        <info compressed="false">https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/tvaddonsco/tva-release-repo/raw/master/</datadir>
+    </dir>
+    
+    <dir minversion="18.0" maxversion="18.9.0">
+		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/leia/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/leia/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/leia/</datadir>
+    </dir>
+    
+    <dir minversion="19.0">
+		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/matrix/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/matrix/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/matrix/</datadir>
+    </dir>
+
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Unofficial Resolvers for the Kodi Media Center</summary>
+        <description>Unofficial Resolvers for the Kodi Media Center. Please visit www.tvaddons.co for support!</description>
+        <platform>all</platform>
+    </extension>
+</addon>
