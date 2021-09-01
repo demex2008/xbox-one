@@ -2651,7 +2651,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.hsk_repo" name="[COLOR blue]HSK-DE Repository[/COLOR]" version="1.0.24" provider-name="Loki1979,HSK-DE">
+<addon id="repository.hsk_repo" name="[COLOR blue]HSK-DE Repository[/COLOR]" version="1.0.21" provider-name="Loki1979,HSK-DE">
 	<extension point="xbmc.addon.repository" name="HSK-DE Repository">
 		<dir>
 		  <info compressed="false">https://downloads.guidos-skinbase.de/hsk_repo/addons.xml</info>
@@ -2755,7 +2755,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="repository.kodiman_public" name="[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]" version="19.2.0" provider-name="[COLOR lime]KODIMAN | HSK-DE[/COLOR]">
+<addon id="repository.kodiman_public" name="[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]" version="2.0.8" provider-name="[COLOR lime]KODIMAN | HSK-DE[/COLOR]">
     <extension point="xbmc.addon.repository" name="KODIMANS PUBLIC REPOSITORY">
     <dir>
 		<info compressed="false">http://wizard.kodiman.net/repository/new_repo/addons.xml</info>
