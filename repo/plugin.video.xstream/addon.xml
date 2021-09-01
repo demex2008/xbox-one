@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.xstream" name="[COLOR lime]Xstream[/COLOR]" version="3.5.23~nightly6" provider-name="xStream-Team">
+ <requires>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.six" version="1.11.0"/>
+    <import addon="repository.xstream" optional="true"/>
+    <import addon="script.module.inputstreamhelper" version="0.3.3" optional="true"/>
+ </requires>
+ <extension point="xbmc.python.pluginsource" library="default.py">
+   <provides>video</provides>
+ </extension>
+     <extension point="xbmc.service" library="service.py" start="startup" />
+ <extension point="xbmc.addon.metadata">
+   <summary lang="de">Watch xStream!</summary>
+   <description lang="de">Mit diesem Addon kannst du auf alle angebotenen Streams verschiedenster deutschen Quellen zugreifen</description>
+   <disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+   <source>https://github.com/streamxstream/plugin.video.xstream</source>
+   <license>GNU GPLv3</license>
+   <platform>all</platform>
+   <news>
+3.5.23~nightly6
+- [alleserien] entfernt
+- [kinoger] fix hoster protonvideo und kinoger
+- [kinox] fix thevideo
+- [movieking] Seite hinzugefügt
+- [flimmerstube] Seite hinzugefügt
+- [kinoger] wieder hinzugefügt
+   </news>
+   <assets>
+     <icon>icon.png</icon>
+     <fanart>fanart.jpg</fanart>
+     <screenshot>resources/art/screenshot.jpg</screenshot>
+   </assets>
+ </extension>
+</addon>
