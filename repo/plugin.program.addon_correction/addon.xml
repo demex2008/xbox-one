@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+    id="plugin.program.addon_correction"
+    name="[COLOR lime]Kodi Addon Name Korrektur ( [COLOR gold]By Loki1979[/COLOR] )[/COLOR]"
+	version="1.0.1" 
+    provider-name="[COLOR gold]Andre Albus * Loki1979[/COLOR]">
+    <requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="correction.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>[COLOR lime]Kodi Addon Name Korrektur[/COLOR]</summary>
+		<description>Zippt alle Kodi Addons in und extern !
+
+Nur ungezippte Addons !
+Passt den Addon Ordner Namen an die Addon ID an
+falls dieser nicht mit der Addon ID gleich ist !
+
+Hardware - Software - Kodi - DE
+https://www.facebook.com/groups/hskde/</description>
+		<license></license>
+		<language></language>	
+		<source></source>
+		<email></email>
+	</extension>
+</addon>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.audio.mp3co.biz"
+        name="[COLOR lime]MP3CO.BIZ[/COLOR]"
+	    version="1.0.10"
+	    provider-name="[COLOR blue]Loki1979 | SH Germania| Guido[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.7.11" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary>[COLOR blue]MP3CO.BIZ[/COLOR]</summary>
+    <description>
+
+Release date 29.10.2018 - 16:00
+Kodi version 17.0 +
+Python version 2.7.11 +
+Created by HSK-DE
+</description>
+    <disclaimer></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <banner></banner>
+        <clearlogo></clearlogo>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>
