@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+    id="plugin.program.addon_zipper"
+    name="[COLOR lime]Kodi Addon Zipper ( [COLOR gold]By Loki1979[/COLOR] )[/COLOR]"
+	version="1.0.4" 
+    provider-name="[COLOR gold]Andre Albus * Loki1979[/COLOR]">
+    <requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="zipper.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>[COLOR lime]Kodi Addon Zipper[/COLOR]</summary>
+		<description>Zippt alle Kodi Addons in und extern !
+
+Der Kodi Addon Zipper ist auf das Addon -
+Kodi Repository Generator - von Loki1979 - abgestimmt !
+
+Hardware - Software - Kodi - DE
+https://www.facebook.com/groups/hskde/</description>
+		<license></license>
+		<language></language>	
+		<source></source>
+		<email></email>
+	</extension>
+</addon>

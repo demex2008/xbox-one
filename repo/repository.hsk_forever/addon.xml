@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.hsk_forever" name="[COLOR magenta]HSK FOREVER[/COLOR]" version="1.0.10" provider-name="[COLOR magenta]SH Germania | KODIMAN | HSK-DE[/COLOR]">
+    <extension point="xbmc.addon.repository" name="HSK FOREVER REPOSITORY">
+		<info compressed="false">http://195.201.100.38/forever/addons.xml</info>
+		<checksum>http://195.201.100.38/forever/addons.xml.md5</checksum>
+		<datadir zip="true">http://195.201.100.38/forever/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR magenta]HSK FOREVER REPOSITORY[/COLOR]</summary>
+        <description>[COLOR magenta]
+
+Ein besonderer Dank geht an Guido Sasse,
+Loki 1979 und an Kodiman die mir stehts zur Seite standen.
+
+In diesem Sinne  HSK-FOREVER
+
+Kodimans Forum:
+http://www.kodiman.net[/COLOR]</description>
+        <platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshot002.jpg</screenshot>
+			<screenshot>resources/screenshot003.jpg</screenshot>
+			<screenshot>resources/screenshot004.jpg</screenshot>
+			<screenshot>resources/screenshot005.jpg</screenshot>
+			<screenshot>resources/screenshot006.jpg</screenshot>
+			<screenshot>resources/screenshot007.jpg</screenshot>
+			<screenshot>resources/screenshot008.jpg</screenshot>
+		</assets>
+    </extension>
+	
+</addon>
