@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.GOK-X-Box.Wizard" name="[COLOR lime]GOK-XBOX[/COLOR]" version="1.0.6" provider-name="Gods of Kodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">GOK XBOX Wizard</summary>
+	<description lang="en">Dieser Wizard erlaubt es Schnell und einfach GOK Builds Clean zu installieren.Telegram Gruppe https://t.me/gokmtb</description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+		<website></website>
+	</extension>
+</addon>

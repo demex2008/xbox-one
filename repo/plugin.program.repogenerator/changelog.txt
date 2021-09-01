@@ -1,0 +1,95 @@
+Kodi Repository Generator
+Version=1.2.4
+Created by Loki1979 - Update - 05.02.2017
+
+
+Kodi Repository Generator Anleitung !
+
+Mit dem Kodi Repository Generator kann man
+ganz einfach eine Kodi Repository erstellen !
+
+Als erstes erstellen Sie einen Ordner der im Namen
+weder Leerzeichen ,Umlaute oder Sonderzeichen enthaelt !
+
+Die Regel mit den Umlauten und Sonderzeichen sollten
+Sie nicht vergessen, diese bezieht sich auf absolut alles !
+
+Wenn Sie das haben legen sie in diesem Ordner ihre
+Addons und Co ab, die in die Repository hinein sollen !
+
+Die Addons und Co werden dort als zip Datei abgelegt !
+Sehr Wichtig hierbei ist das die Versionsnummer des Addons
+hinten am Namen der zip Datei mit einem Bindestrich angefuegt wird !
+
+Z.B:
+Unzipp:
+plugin.video.xxxxx = Muss gleich sein mit der Addon ID
+Gezippt:
+plugin.video.xxxxx.zip = plugin.video.xxxxx-1.0.0.zip
+
+Jedes andere Format ist unzulaessig !!!
+
+
+Wenn Sie das haben starten Sie den Repository Generator
+und waehlen dort ihren Repository Ordner aus ! NICHT DIE ZIP ODER UNTERORDNER !
+
+Nun erstellt der Repository Generator die erforderliche
+Ordner und Datei Struktur !
+
+Des weiteren wird noch ein Ordner mit ausgegeben der
+ein Repository-Addon Beispiel und eine TXT enthaelt !
+
+Siehe:
+KODI REPOSETORY-ADDON BEISPIEL
+
+Ziehen Sie diesen Ordner aus der Repository heraus !
+Dieser Ordner muss nicht in der Repository sein, er wird
+nur fuer Sie als weitere Hilfe ausgegeben !
+Er enthaelt einen Rohling des Repository-Addon das spaeter
+als Repository in Kodi installiert wird !
+
+Die Repository ist jetzt fertig !!!
+Der Ordner mit der Repository kann nun auf dem Server abgelegt werden !!!
+
+Zurueck zum ( KODI REPOSETORY-ADDON BEISPIEL ) Ordner !
+
+Das enthaltene Repository-Addon ist ein Rohling und muss
+noch etwas angepasst und danach als zip gepackt werden !
+
+Siehe:
+repository.hsk.kodiaddons
+
+Anpassung des Repository-Addon > addon.xml:
+
+> name 2x
+> version
+> provider-name
+> url zur > addons.xml
+> url zur > addons.xml.md5
+> url zum > repo_ordner
+> Titel
+> Beschreibung
+
+
+Wenn Sie den Repository-Addon Namen anpassen wollen
+muss die ID in der addon.xml mit angepasst werden !
+Der Ordnername und die ID muessen immer gleich sein !
+
+Z.B:
+repository.hsk.kodiaddons
+id="repository.hsk.kodiaddons"
+
+Danach zippen Sie den Ordner ( repository.hsk.kodiaddons ) und haengen
+nachtraeglich die Versionsnummer mit einem Bindestrich an den zip Namen an !
+
+Z.B:
+repository.hsk.kodiaddons = repository.hsk.kodiaddons-1.0.0.zip
+
+Jetzt kann das ( repository.hsk.kodiaddons-1.0.0.zip ) Addon
+wie gewohnt in Kodi installiert werden !
+
+DAS WAR'S - VIEL SPASS !!!
+
+Addon Support !
+Hardware - Software - Kodi - DE
+https://www.facebook.com/groups/hskde/

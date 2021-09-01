@@ -1,0 +1,8 @@
+v1.0.4
+- add ExodusRedux and Yoda to CacheCleaner, add AS.xml
+v1.0.3
+- reworked Menu and Settings by SGK
+v1.0.2
+- Modified and Update by SGK
+v1.0.1
+- First Release by SGK

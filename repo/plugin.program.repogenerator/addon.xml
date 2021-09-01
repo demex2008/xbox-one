@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+    id="plugin.program.repogenerator" 
+    name="[COLOR lime]Kodi Repository Generator ( [COLOR gold]By Loki1979[/COLOR] )[/COLOR]"
+	version="1.2.4" 
+    provider-name="[COLOR gold]Andre Albus * Loki1979[/COLOR]">
+    <requires>
+	    <import addon="xbmc.python" version="2.24.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="generator.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<platform>all</platform>
+	<summary>[COLOR lime]Kodi Repository Generator[/COLOR]</summary>
+	<description>Mit dem Kodi Repository Generator kann man
+ganz einfach eine eigene Kodi Repository erstellen !
+Ein Kodi Repository-Addon Beispiel( Rohling )ist mit enthalten !
+Die genaue Anleitung ist im Changelog des Addons zu finden !
+
+Der Kodi Repository Generator ist auf das Addon -
+Kodi Addon Zipper - von Loki1979 - abgestimmt !
+
+Hardware - Software - Kodi - DE
+https://www.facebook.com/groups/hskde/</description>	
+	</extension>
+</addon>

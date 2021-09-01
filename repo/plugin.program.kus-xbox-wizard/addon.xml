@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.kus-xbox-wizard" name="[COLOR lime]KUS XBOX[/COLOR]" version="1.0.6" provider-name="SGK">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">KUS [COLORgreen]XBOX[/COLOR] Wizard by SGK</summary>
+	<description lang="en">Einfach fertig vorkonfigurierte KODI-Builds für die [COLORgreen]XBOX[/COLOR] installieren.[CR][CR]Besucht uns in unserer Facebook-Gruppe Kodi Unlimited Support:[CR][COLORgreen]https://www.facebook.com/groups/kodiunlimited[/COLOR][CR][CR]Spenden-Link:[CR][COLORgreen]https://www.paypal.me/KodiUnlimited[/COLOR]</description>
+	<platform>all</platform>
+	<forum>https://www.facebook.com/groups/kodiunlimited</forum>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<screenshot>resources/art/screenshot-01.jpg</screenshot>
+		<screenshot>resources/art/screenshot-02.jpg</screenshot>
+		<screenshot>resources/art/screenshot-03.jpg</screenshot>
+		<screenshot>resources/art/screenshot-04.jpg</screenshot>
+		<screenshot>resources/art/screenshot-05.jpg</screenshot>
+		<screenshot>resources/art/screenshot-06.jpg</screenshot>
+		<screenshot>resources/art/screenshot-07.jpg</screenshot>
+	</assets>	
+	</extension>
+</addon>
