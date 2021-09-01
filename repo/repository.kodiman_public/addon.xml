@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodiman_public" name="[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]" version="19.2.0" provider-name="[COLOR lime]KODIMAN | HSK-DE[/COLOR]">
+    <extension point="xbmc.addon.repository" name="KODIMANS PUBLIC REPOSITORY">
+    <dir>
+		<info compressed="false">http://wizard.kodiman.net/repository/new_repo/addons.xml</info>
+		<checksum>http://wizard.kodiman.net/repository/new_repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://wizard.kodiman.net/repository/new_repo/</datadir>
+		<artdir>http://wizard.kodiman.net/repository/new_repo/</artdir>
+	</dir>
+	<dir minversion="19.0.0">
+	    <info compressed="false">http://wizard.kodiman.net/repository19/new_repo/addons.xml</info>
+		<checksum>http://wizard.kodiman.net/repository19/new_repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://wizard.kodiman.net/repository19/new_repo/</datadir>
+		<artdir>http://wizard.kodiman.net/repository19/new_repo/</artdir>
+	</dir>
+    <dir>
+	    <info compressed="false">https://downloads.guidos-skinbase.de/hsk_repo/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/hsk_repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/hsk_repo/</datadir>
+	</dir>
+	<dir minversion="19.0.0">
+	    <info compressed="false">https://downloads.guidos-skinbase.de/hsk_crew_repo/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/hsk_crew_repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/hsk_crew_repo/</datadir>
+		<artdir>http://downloads.guidos-skinbase.de/hsk_crew_repo/</artdir>
+	</dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]</summary>
+        <description>Forum : https://www.kodiman.company/</description>
+        <platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+    <assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+    </extension>
+</addon>
