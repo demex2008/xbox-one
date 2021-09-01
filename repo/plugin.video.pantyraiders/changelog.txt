@@ -1,0 +1,24 @@
+v2.0
+fixed
+-XVideos
+-PornHub
+-Chaturbate
+-YouPorn
+-Tube8
+-YouJizz
+-PornDig
+-Porn300
+-PervClips removed until it can be worked out.
+-WatchMyGF removed until further notice.
+
+
+v1.4.4
+Fixed
+-YouJizz
+-PornHub
+-Redtube
+-WatchMyGF
+
+Removed
+-SpankWire = cant get video links to play in kodi
+-Pluseone8 = cant get video links to play in kodi

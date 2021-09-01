@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.StubeTV" name="[B][COLORred]Stube[/COLOR] [COLOR skyblue]TV[/COLOR][/B]" version="2.1.0" provider-name="Gatekeeper">
+ <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+	<import addon="script.module.simplejson" />
+	<import addon="inputstream.adaptive" version="2.2.21"/>
+	<import addon="script.module.inputstreamhelper" version="0.3.5"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="6.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB"></summary>
+	<summary lang="de_DE"></summary>
+    <description lang="en_GB">[COLOR red]Stube[/COLOR] [COLOR skyblue]TV[/COLOR]</description>
+	<description lang="de_DE">[COLOR red]Stube[/COLOR] [COLOR skyblue]TV[/COLOR]</description>
+	<disclaimer>[COLOR red]Stube[/COLOR] [COLOR skyblue]TV[/COLOR]</disclaimer>
+    <platform>all</platform>
+	<assets>
+       
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>

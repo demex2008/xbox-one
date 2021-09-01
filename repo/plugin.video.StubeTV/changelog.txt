@@ -1,0 +1,7 @@
+v.1.0.7 - Addon/Code optimization
+v.1.0.6 - Addon/Code optimization
+v.1.0.5	- public Release + Code cleanup
+v.1.0.4	- add Movies + update Icons
+v.1.0.3	- add Docus + create new Menu
+v.1.0.2	- add Festivals + add Icons
+v.1.0.1	- first Release
