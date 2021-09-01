@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.kodiman_public" name="[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]" version="19.2.0" provider-name="[COLOR lime]KODIMAN | HSK-DE[/COLOR]">
+<addon id="repository.kodiman_public" name="[COLOR lime]KODIMANS PUBLIC REPOSITORY[/COLOR]" version="2.0.8" provider-name="[COLOR lime]KODIMAN | HSK-DE[/COLOR]">
     <extension point="xbmc.addon.repository" name="KODIMANS PUBLIC REPOSITORY">
     <dir>
 		<info compressed="false">http://wizard.kodiman.net/repository/new_repo/addons.xml</info>
