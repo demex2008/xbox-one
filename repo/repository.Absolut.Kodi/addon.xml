@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.Absolut.Kodi" name="[COLOR dodgerblue]Absolut[/COLOR] [COLOR ghostwhite]Kodi[/COLOR] [COLOR dodgerblue]Repository[/COLOR]" version="1.0.5" provider-name="[COLOR dodgerblue]Absolut Kodi [COLOR ghostwhite]Team[/COLOR] | [COLOR red]El[COLOR white]Turko[/COLOR]">
+    <extension point="xbmc.addon.repository" name="Absolut Kodi Repository">
+		<info compressed="false">http://absolut-kodi.com/repository/addons.xml</info>
+		<checksum>http://absolut-kodi.com/repository/addons.xml.md5</checksum>
+		<datadir zip="true">http://absolut-kodi.com/repository/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR dodgerblue]Absolut[/COLOR] [COLOR ghostwhite]Kodi[/COLOR] [COLOR dodgerblue]Repository[/COLOR]</summary>
+        <description>[COLOR dodgerblue]Absolut[/COLOR] [COLOR ghostwhite]Kodi[/COLOR] [COLOR dodgerblue]Repository[/COLOR]
+
+[COLOR white]Absolut Kodi News : [COLOR dodgerblue]http://absolut-kodi.com[/COLOR]
+[COLOR white]Facebook Gruppe : [COLOR dodgerblue]Absolut[/COLOR] [COLOR white]Kodi[/COLOR]
+[COLOR red]Danke fur den Support : [COLOR white]http://paypal.me/AbsolutKodi[/COLOR]
+[COLOR red]Thanks for the Support : [COLOR white]http://paypal.me/AbsolutKodi[/COLOR]
+      </description>
+        <platform>all</platform>
+      <assets>
+       <icon>icon.gif</icon>
+       <fanart>fanart.gif</fanart>
+  </assets>
+  </extension>
+</addon>
