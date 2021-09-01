@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.hsk_repo" name="[COLOR blue]HSK-DE Repository[/COLOR]" version="1.0.24" provider-name="Loki1979,HSK-DE">
+<addon id="repository.hsk_repo" name="[COLOR blue]HSK-DE Repository[/COLOR]" version="1.0.21" provider-name="Loki1979,HSK-DE">
 	<extension point="xbmc.addon.repository" name="HSK-DE Repository">
 		<dir>
 		  <info compressed="false">https://downloads.guidos-skinbase.de/hsk_repo/addons.xml</info>
