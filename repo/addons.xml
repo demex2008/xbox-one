@@ -1925,7 +1925,7 @@ https://www.kinox.to</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.netflix" name="Netflix" version="1.20.3" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
+<addon id="plugin.video.netflix" name="Netflix" version="1.12.6" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
   <requires>
     <import addon="xbmc.python" version="2.26.0"/>
     <import addon="script.module.addon.signals" version="0.0.3"/>
@@ -2011,9 +2011,8 @@ https://www.kinox.to</description>
     <forum>https://forum.kodi.tv/showthread.php?tid=329767</forum>
     <source>https://github.com/CastagnaIT/plugin.video.netflix</source>
     <news>
-v1.12.3 (2021-02-21)
-- Fixed HTTP ReadTimeout/ConnectionError errors
-- Fixed incorrect handling of MSL errors
+v1.12.6 (2021-07-16)
+- Fixed empty lists on menu/submenus due to website changes
     </news>
   </extension>
 </addon>
@@ -4666,11 +4665,20 @@ https://www.facebook.com/groups/hskde/</description>
 	</extension>
 </addon>
 	
-<addon id="repository.hsk_forever" name="[COLOR magenta]HSK FOREVER[/COLOR]" version="1.0.10" provider-name="[COLOR magenta]SH Germania | KODIMAN | HSK-DE[/COLOR]">
+<addon id="repository.hsk_forever" name="[COLOR magenta]HSK FOREVER[/COLOR]" version="1.0.20" provider-name="[COLOR magenta]SH Germania | KODIMAN | HSK-DE[/COLOR]">
     <extension point="xbmc.addon.repository" name="HSK FOREVER REPOSITORY">
-		<info compressed="false">http://195.201.100.38/forever/addons.xml</info>
-		<checksum>http://195.201.100.38/forever/addons.xml.md5</checksum>
-		<datadir zip="true">http://195.201.100.38/forever/</datadir>
+		<dir minversion="18.0.0">
+            <info compressed="false">https://downloads.guidos-skinbase.de/hsk_forever/addons.xml</info>
+		    <checksum>https://downloads.guidos-skinbase.de/hsk_forever/addons.xml.md5</checksum>
+		    <datadir zip="true">https://downloads.guidos-skinbase.de/hsk_forever/</datadir>
+		    <artdir>http://downloads.guidos-skinbase.de/hsk_forever_py3</artdir>
+        </dir>
+        <dir minversion="18.9.0">
+            <info compressed="false">https://downloads.guidos-skinbase.de/hsk_forever_py3/addons.xml</info>
+		    <checksum>https://downloads.guidos-skinbase.de/hsk_forever_py3/addons.xml.md5</checksum>
+		    <datadir zip="true">https://downloads.guidos-skinbase.de/hsk_forever_py3/</datadir>
+		    <artdir>http://downloads.guidos-skinbase.de/hsk_forever_py3</artdir>
+        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>[COLOR magenta]HSK FOREVER REPOSITORY[/COLOR]</summary>
@@ -4690,11 +4698,6 @@ http://www.kodiman.net[/COLOR]</description>
 			<screenshot>resources/screenshot001.jpg</screenshot>
 			<screenshot>resources/screenshot002.jpg</screenshot>
 			<screenshot>resources/screenshot003.jpg</screenshot>
-			<screenshot>resources/screenshot004.jpg</screenshot>
-			<screenshot>resources/screenshot005.jpg</screenshot>
-			<screenshot>resources/screenshot006.jpg</screenshot>
-			<screenshot>resources/screenshot007.jpg</screenshot>
-			<screenshot>resources/screenshot008.jpg</screenshot>
 		</assets>
     </extension>
 	
@@ -4713,9 +4716,9 @@ http://www.kodiman.net[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="slyguy.disney.plus" name="Disney+" provider-name="Slyguy" version="0.6.1">
+<addon id="slyguy.disney.plus" name="Disney+" provider-name="Slyguy" version="0.9.8">
   <requires>
-  <import addon="script.module.slyguy"/>
+    <import addon="script.module.slyguy"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
     <provides>video</provides>
@@ -4727,17 +4730,20 @@ Subscription required.</description>
     <description lang="it">Disney+ è la casa esclusiva per i tuoi film e programmi TV preferiti di Disney, Pixar, Marvel, Star Wars e National Geographic.
 
 Abbonamento richiesto.</description>
+    <description lang="fr">Disney+ est la destination exclusive de vos films et séries TV préférés des univers Disney, Pixar, Marvel, Star Wars et National Geographic.
+
+Abonnement requis.</description>
     <reuselanguageinvoker>true</reuselanguageinvoker>
     <license></license>
     <language></language>
     <website></website>
-    <news>Add Hubs folder</news>
+    <news>Fix Star hub</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
- </addon>
+</addon>
 	
  <addon id="script.module.hls.cache"
 		name="[COLOR blue]HLS-CACHE[/COLOR]"
