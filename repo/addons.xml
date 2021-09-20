@@ -4813,3 +4813,564 @@ provider-name="[COLOR blue]Loki1979[/COLOR]">
     </extension>
 </addon>
 </addons>
+
+<addon id="plugin.video.filmpalast_to" name="FilmPalast" version="1.1.2" provider-name="Lary_Loose | HSK-FIX">
+    <requires>
+        <import addon="xbmc.python" version="2.7.13" />
+        <!-- choose your resolver -->
+
+		<!-- <import addon="script.module.resolveurl"/> -->
+		<import addon="script.module.urlresolver"/>
+
+        <!-- choose your resolver -->
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">FilmPalast.to FiLME &amp; SERiEN sofort &amp; kostenlos online ansehen!</summary>
+        <summary lang="en">FilmPalast.to MOViS &amp; SERiES, watch online instantly &amp; free!</summary>
+        <description lang="de"></description>
+        <description lang="en"></description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.filmpalast_to" name="FilmPalast" version="1.1.3" provider-name="Lary_Loose | HSK-FIX">
+    <requires>
+        <import addon="xbmc.python" version="2.7.13" />
+        <!-- choose your resolver -->
+
+		<!-- <import addon="script.module.resolveurl"/> -->
+		<import addon="script.module.urlresolver"/>
+
+        <!-- choose your resolver -->
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">FilmPalast.to FiLME &amp; SERiEN sofort &amp; kostenlos online ansehen!</summary>
+        <summary lang="en">FilmPalast.to MOViS &amp; SERiES, watch online instantly &amp; free!</summary>
+        <description lang="de"></description>
+        <description lang="en"></description>
+    </extension>
+</addon>
+
+<addon id="repository.hsk.forever.18" name="[COLOR magenta]HSK FOREVER Kodi 18[/COLOR]" version="1.0.24" provider-name="[COLOR magenta]SH Germania | KODIMAN | HSK-DE[/COLOR]">
+    <extension point="xbmc.addon.repository" name="HSK FOREVER REPOSITORY">
+		<dir>
+            <info compressed="false">https://downloads.guidos-skinbase.de/hsk.forever.18/addons.xml</info>
+		    <checksum>https://downloads.guidos-skinbase.de/hsk.forever.18/addons.xml.md5</checksum>
+		    <datadir zip="true">https://downloads.guidos-skinbase.de/hsk.forever.18/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR magenta]HSK FOREVER REPOSITORY Kodi 18[/COLOR]</summary>
+        <description>[COLOR magenta]
+
+Ein besonderer Dank geht an Guido Sasse,
+Loki 1979 und an Kodiman die mir stehts zur Seite standen.
+
+In diesem Sinne  HSK-FOREVER
+
+Kodimans Forum:
+http://www.kodiman.net[/COLOR]</description>
+        <platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshot002.jpg</screenshot>
+			<screenshot>resources/screenshot003.jpg</screenshot>
+		</assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.hdfilme.cc"
+		name="[COLOR lime]HD-Filme.cc[/COLOR]"
+		version="1.2.1"
+		provider-name="Loki1979">
+	<requires>
+        <import addon="xbmc.python" version="2.7.13" />
+		<import addon="script.module.hsk.de"/>
+		<import addon="script.module.hls.cache"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary>150320201230</summary>
+	<description>Umsetzung der Website:
+https://hdfilme.cc</description>
+	<disclaimer></disclaimer>
+	<language>de</language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.video.kinox.to"
+		name="[COLOR blue]Kinox.to[/COLOR]"
+		version="1.0.4"
+		provider-name="Loki1979 | HSK-DE">
+	<requires>
+		<import addon="xbmc.python" version="2.7.13" />
+		<import addon="script.module.hsk.de"/>
+        <!-- choose your resolver -->
+		<!-- <import addon="script.module.resolveurl"/> -->
+		<import addon="script.module.urlresolver"/>
+        <!-- choose your resolver -->
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary></summary>
+	<description>Website:
+https://www.kinox.to</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.video.kinox.to"
+		name="[COLOR blue]Kinox.to[/COLOR]"
+		version="1.0.6"
+		provider-name="Loki1979 | HSK-DE">
+	<requires>
+		<import addon="xbmc.python" version="2.7.13" />
+		<import addon="script.module.hsk.de"/>
+        <!-- choose your resolver -->
+		<!-- <import addon="script.module.resolveurl"/> -->
+		<import addon="script.module.urlresolver"/>
+        <!-- choose your resolver -->
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary></summary>
+	<description>Website:
+https://www.kinox.to</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
+
+<addon id="skin.confluence18_hsk_ultimate_topics" version="4.2.20" name="[COLOR red]Confluence Ultimate Topics[/COLOR]  (18)" provider-name="SKINBASE">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0"/>
+		<import addon="script.favourites" version="7.00.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Skins und Skin Themen by Guidos Skinbase.</summary>
+		<summary lang="en_GB">Skins and Skin Themen by Guidos Skinbase.</summary>
+		<description lang="de_DE">Guidos Skinbase Repo. Die Gröste Skinbase der Welt mit unzähligen Skin Mods  und Skin Themen aus der ganzen Welt. Ständig Erweitert und Verbessert, so sollte für jeden was dabei sein Viel Spass. </description>
+		<description lang="en_GB">Guido's Skinbase Repo. The world's largest skinbase with countless skin mods and skin themes from around the world. Constantly extended and improved, so there should be something for everyone Have fun.</description>
+		<platform>all</platform>
+		<news lang="de_DE">Guidos Skinbase Repo. Die Gröste Skinbase der Welt mit unzähligen Skin Mods  und Skin Themen aus der ganzen Welt. Ständig Erweitert und Verbessert, so sollte für jeden was dabei sein Viel Spass. </news>
+		<news lang="en_GB">Guido's Skinbase Repo. The world's largest skinbase with countless skin mods and skin themes from around the world. Constantly extended and improved, so there should be something for everyone Have fun.</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshot002.jpg</screenshot>
+			<screenshot>resources/screenshot003.jpg</screenshot>
+			<screenshot>resources/screenshot004.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.video.xcine.tv"
+		name="[COLOR gold]X-Cine.tv[/COLOR]"
+		version="1.2.0"
+		provider-name="Loki1979">
+	<requires>
+        <import addon="xbmc.python" version="2.7.13" />
+		<import addon="script.module.hsk.de"/>
+		<import addon="script.module.hls.cache"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary>250520200240</summary>
+	<description>Umsetzung der Website:
+https://xcine.tv</description>
+	<disclaimer></disclaimer>
+	<language>de</language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.program.hsk.simple.wizard.18"
+		name="[COLOR blue]HSK-SIMPLE-WIZARD Kodi18[/COLOR]"
+		version="18.0.07"
+		provider-name="[COLOR blue]Loki1979[/COLOR]">
+	<requires>
+		<!--py2 compliant-->
+		<import addon="xbmc.python" version="2.25.0"/>
+		<!--py3 compliant-->
+		<!--<import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>-->
+		<!--<import addon="xbmc.python" version="2.25.0"/>-->
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="resources/pys/wizard.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary>Einfach Schnell Simpel, HSK-SIMPEL-WIZARD !</summary>
+	<description>HSK Simpel Wizard für Kodi 18 !!! [COLOR blue]Created by Loki1979[/COLOR] [COLOR blue]18.09.2021 09:30 PYTHON 2 AND 3[/COLOR]</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news>Update 18.09.21</news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<screenshot>resources/screenshot-01.jpg</screenshot>
+		<screenshot>resources/screenshot-02.jpg</screenshot>
+		<screenshot>resources/screenshot-03.jpg</screenshot>
+	</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.video.hdfilme.cx"
+		name="[COLOR ]HD-Filme[/COLOR]"
+		version="1.2.5"
+		provider-name="Loki1979">
+	<requires>
+        <import addon="xbmc.python" version="2.7.13" />
+		<import addon="script.module.hsk.de" version="1.1.0"/>
+		<import addon="script.module.hls.cache" version="1.0.6"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary>150320201230</summary>
+	<description>Umsetzung der Website:
+https://hdfilme.cc</description>
+	<disclaimer></disclaimer>
+	<language>de</language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.video.hsk.wizard18.pro"
+	name="[COLOR blue]HSK WIZARD PRO[/COLOR]"
+	version="1.0.0~beta18" 
+	provider-name="Loki1979">
+	<requires>
+		<!--py2 compliant-->
+		<!--<import addon="xbmc.python" version="2.25.0"/>-->
+		<!--py3 compliant-->
+		<!--<import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>-->
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.inputstreamhelper" version="0.4.7"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.webinterface"/>
+	<extension point="xbmc.addon.metadata">
+	<summary>[COLOR blue]Created by loki1979[/COLOR]</summary>
+	<description>HSK WIZARD PRO für Kodi 18 ![COLOR blue]21.06.2020 07:00 PYTHON 2 AND 3[/COLOR]</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<screenshot>resources/screenshot01.jpg</screenshot>
+		<screenshot>resources/screenshot02.jpg</screenshot>
+		<screenshot>resources/screenshot03.jpg</screenshot>
+		<screenshot>resources/screenshot04.jpg</screenshot>
+		<screenshot>resources/screenshot05.jpg</screenshot>
+		<screenshot>resources/screenshot06.jpg</screenshot>
+		<screenshot>resources/screenshot07.jpg</screenshot>
+		<screenshot>resources/screenshot08.jpg</screenshot>
+		<screenshot>resources/screenshot09.jpg</screenshot>
+		<screenshot>resources/screenshot10.jpg</screenshot>
+	</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.video.xcine.me"
+		name="[COLOR ]X-Cine[/COLOR]"
+		version="1.2.5"
+		provider-name="Loki1979">
+	<requires>
+        <import addon="xbmc.python" version="2.7.13" />
+		<import addon="script.module.hsk.de"/>
+		<import addon="script.module.hls.cache"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary>250520200240</summary>
+	<description>Umsetzung der Website:
+https://xcine.tv</description>
+	<disclaimer></disclaimer>
+	<language>de</language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
+
+<addon id="repository.hsk.repo.18" name="[COLOR blue]HSK-DE Repository Kodi 18[/COLOR] " version="1.0.30" provider-name="Loki1979,HSK-DE">
+	<extension point="xbmc.addon.repository" name="HSK-DE Repository">
+		<dir>
+		  <info compressed="false">https://downloads.guidos-skinbase.de/hsk.repo.18/addons.xml</info>
+		  <checksum>https://downloads.guidos-skinbase.de/hsk.repo.18/addons.xml.md5</checksum>
+		  <datadir zip="true">https://downloads.guidos-skinbase.de/hsk.repo.18/</datadir>
+		</dir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+	<summary>HSK-De Repo Kodi 18</summary>
+	<description>Die HSK Repo für Kodi 18.</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+    <assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
+
+<addon id="repository.master.skinbase" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] Master [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR]" version="3.3.42" provider-name="[COLOR orange]GUIDO[/COLOR] | [COLOR skyblue]Kodiman[/COLOR] | [COLOR orange]HSK-DE[/COLOR]">
+	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
+	<dir>
+		<info compressed="false">https://downloads.guidos-skinbase.de/repos/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/repos/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/repos/</datadir>
+	</dir>
+	<dir minversion="16.9.0">
+		<info compressed="false">https://downloads.guidos-skinbase.de/addons17/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/addons17/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/addons17/</datadir>
+	</dir>
+	<dir minversion="17.9.0">
+		<info compressed="false">https://downloads.guidos-skinbase.de/addons18/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/addons18/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/addons18/</datadir>
+	</dir>
+	<dir minversion="18.9.0">
+		<info compressed="false">https://downloads.guidos-skinbase.de/addons19/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/addons19/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/addons19/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://downloads.guidos-skinbase.de/skins16/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/skins16/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/skins16/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://downloads.guidos-skinbase.de/skins17/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/skins17/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/skins17/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://downloads.guidos-skinbase.de/skins18/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/skins18/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/skins18/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://downloads.guidos-skinbase.de/skins19/addons.xml</info>
+		<checksum>https://downloads.guidos-skinbase.de/skins19/addons.xml.md5</checksum>
+		<datadir zip="true">https://downloads.guidos-skinbase.de/skins19/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>[COLOR orange]G[/COLOR]uido[COLOR orange]s[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Repo</summary>
+<description lang="de_DE">In Guidos SKINBASE findet ihr Skins für die Kodi Versionen von 16 bis 19 aus aller Welt.
+Die Skins sind für die jeweiligen Kodi Versionen farblich markiert. Des weiteren findet ihr auch weitere Repos sowie alle Addons Abhängikeiten in der Repo die für die Skins benötigt werden.
+Die SkinBase wird ständig erweitert und verbessert. Hinzugekommen sind Skins mit Topics Loader , diese sind EXTRA mit Roter schrift versehen und ermöglichen mit einem Skin unzählige Themen oder Hintergrundbilder zu wechseln. Viel Spass wünschen euch Guido und sowie das SKINBASE TEAM.</description>
+		<description lang="en_GB">In Guidos SKINBASE you will find skins for the Kodi versions from 16 to 19 from all over the world.
+The skins are color-coded for the respective Kodi versions. Furthermore, you will also find other repos and all addons dependencies in the repo that are required for the skins.
+The SkinBase is constantly being expanded and improved. Added to this are skins with Topics Loader, these are EXTRA with red letters and allow you to change countless themes or background images with one skin. Guido and the SKINBASE TEAM wish you lots of fun.</description>
+        <platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshot-05.jpg</screenshot>
+			<screenshot>resources/screenshot-06.jpg</screenshot>
+			<screenshot>resources/screenshot-07.jpg</screenshot>
+			<screenshot>resources/screenshot-08.jpg</screenshot>
+			<screenshot>resources/screenshot-09.jpg</screenshot>
+			<screenshot>resources/screenshot-10.jpg</screenshot>
+		</assets>
+        <forum>https://www.facebook.com/groups/716337198478240/</forum>
+        <website>https://www.facebook.com/groups/716337198478240/</website>
+	</extension>
+</addon>
+
+<addon id="repository.xbox-one" name="[COLOR lime]XBOX-ONE[/COLOR] [COLOR red]Repository[/COLOR]" version="1.1.5" provider-name="[COLOR gold]demex2008[/COLOR]">
+	<extension point="xbmc.addon.repository" name="xbox-one Repository">
+		<info compressed="true">https://raw.githubusercontent.com/demex2008/xbox-one/master/repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/demex2008/xbox-one/master/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/demex2008/xbox-one/master/repo</datadir>
+		<artdir>https://raw.githubusercontent.com/demex2008/xbox-one/master/repo</artdir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+	<summary>[COLOR lime]XBOX-ONE[/COLOR] [COLOR red]Repository[/COLOR]
+</summary>
+	<description>[COLOR lime]XBOX-ONE[/COLOR] [COLOR red]Repository[/COLOR]
+</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+    <assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
+
+<addon id="repository.xbox-one" name="[COLOR lime]XBOX-ONE[/COLOR] [COLOR red]Repository[/COLOR]" version="1.1.5" provider-name="[COLOR gold]demex2008[/COLOR]">
+	<extension point="xbmc.addon.repository" name="xbox-one Repository">
+		<info compressed="true">https://raw.githubusercontent.com/demex2008/xbox-one/master/repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/demex2008/xbox-one/master/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/demex2008/xbox-one/master/repo</datadir>
+		<artdir>https://raw.githubusercontent.com/demex2008/xbox-one/master/repo</artdir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+	<summary>[COLOR lime]XBOX-ONE[/COLOR] [COLOR red]Repository[/COLOR]
+</summary>
+	<description>[COLOR lime]XBOX-ONE[/COLOR] [COLOR red]Repository[/COLOR]
+</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+    <assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
