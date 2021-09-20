@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+
+	<category label="[COLOR blue]CFG[/COLOR]">
+		<setting id="cfg_url" type="text" label="[COLOR blue]CFG URL[/COLOR]" default="http://downloads.guidos-skinbase.de/hsk_wizard_pro/settings.xml"/>
+		<setting id="cfg_username" type="text" label="[COLOR blue]CFG USERNAME[/COLOR]" default="HSK-FOREVER"/>
+		<setting id="cfg_password" type="text" option="hidden" label="[COLOR blue]CFG PASSWORD[/COLOR]" default="covid19"/>
+		<setting id="download_cfg" type="bool" label="[COLOR blue]CFG DOWNLOAD[/COLOR]" default="false"/>
+		<setting type="sep"/>
+		<setting id="set_item_content" type="labelenum"  label="[COLOR blue]SET ITEM CONTENT[/COLOR]" values="files|videos|movies|episodes|tvshows" default="files"/>
+		<setting id="set_info_content" type="labelenum"  label="[COLOR blue]SET INFO CONTENT[/COLOR]" values="files|videos|movies|episodes|tvshows" default="movies"/>
+		<setting type="sep"/>
+		<setting id="set_item_view_mode" type="text" label="[COLOR blue]SET ITEM VIEW MODE[/COLOR]" default=""/>
+		<setting id="set_info_view_mode" type="text" label="[COLOR blue]SET INFO VIEW MODE[/COLOR]" default=""/>
+	</category>
+
+	<category label="[COLOR blue]SERVER[/COLOR]">
+		<setting id="selected_server" type="labelenum"  label="[COLOR red]SELECTED SERVER[/COLOR]" values="1|2|3|4|5" default="1"/>
+		<setting type="sep"/>
+		<setting id="server_1_url" type="text" label="[COLOR blue]SERVER 1 URL[/COLOR]" default=""/>
+		<setting id="server_1_username" type="text" label="[COLOR blue]SERVER 1 USERNAME[/COLOR]" default=""/>
+		<setting id="server_1_password" type="text" option="hidden" label="[COLOR blue]SERVER 1 PASSWORD[/COLOR]" default=""/>
+		<setting id="server_1_encoding" type="labelenum"  label="[COLOR blue]SERVER 1 ENCODING[/COLOR]" values="utf-8|ISO-8859-1" default="utf-8"/>
+		<setting type="sep"/>
+		<setting id="server_2_url" type="text" label="[COLOR blue]SERVER 2 URL[/COLOR]" default=""/>
+		<setting id="server_2_username" type="text" label="[COLOR blue]SERVER 2 USERNAME[/COLOR]" default=""/>
+		<setting id="server_2_password" type="text" option="hidden" label="[COLOR blue]SERVER 2 PASSWORD[/COLOR]" default=""/>
+		<setting id="server_2_encoding" type="labelenum"  label="[COLOR blue]SERVER 2 ENCODING[/COLOR]" values="utf-8|ISO-8859-1" default="utf-8"/>
+		<setting type="sep"/>
+		<setting id="server_3_url" type="text" label="[COLOR blue]SERVER 3 URL[/COLOR]" default=""/>
+		<setting id="server_3_username" type="text" label="[COLOR blue]SERVER 3 USERNAME[/COLOR]" default=""/>
+		<setting id="server_3_password" type="text" option="hidden" label="[COLOR blue]SERVER 3 PASSWORD[/COLOR]" default=""/>
+		<setting id="server_3_encoding" type="labelenum"  label="[COLOR blue]SERVER 3 ENCODING[/COLOR]" values="utf-8|ISO-8859-1" default="utf-8"/>
+		<setting type="sep"/>
+		<setting id="server_4_url" type="text" label="[COLOR blue]SERVER 4 URL[/COLOR]" default=""/>
+		<setting id="server_4_username" type="text" label="[COLOR blue]SERVER 4 USERNAME[/COLOR]" default=""/>
+		<setting id="server_4_password" type="text" option="hidden" label="[COLOR blue]SERVER 4 PASSWORD[/COLOR]" default=""/>
+		<setting id="server_4_encoding" type="labelenum"  label="[COLOR blue]SERVER 4 ENCODING[/COLOR]" values="utf-8|ISO-8859-1" default="utf-8"/>
+		<setting type="sep"/>
+		<setting id="server_5_url" type="text" label="[COLOR blue]SERVER 5 URL[/COLOR]" default=""/>
+		<setting id="server_5_username" type="text" label="[COLOR blue]SERVER 5 USERNAME[/COLOR]" default=""/>
+		<setting id="server_5_password" type="text" option="hidden" label="[COLOR blue]SERVER 5 PASSWORD[/COLOR]" default=""/>
+		<setting id="server_5_encoding" type="labelenum"  label="[COLOR blue]SERVER 5 ENCODING[/COLOR]" values="utf-8|ISO-8859-1" default="utf-8"/>
+	</category>
+
+	<category label="[COLOR blue]IP LOG READER[/COLOR]">
+		<setting id="webinterface_ip" type="text" label="[COLOR blue]IP[/COLOR]" default=""/>
+		<setting id="webinterface_port" type="text" label="[COLOR blue]PORT[/COLOR]" default="8080"/>
+		<setting id="webinterface_username" type="text" label="[COLOR blue]USERNAME[/COLOR]" default="kodi"/>
+		<setting id="webinterface_password" type="text" option="hidden" label="[COLOR blue]PASSWORD[/COLOR]" default=""/>
+	</category>
+
+	<category label="[COLOR blue]BACKUPS & RESTORE[/COLOR]">
+		<setting id="zip_password" type="text" option="hidden" label="[COLOR red]UNZIP PASSWORD[/COLOR]" default=""/>
+		<setting type="sep"/>
+		<setting id="save_sources" type="bool" label="[COLOR blue]SAVE SOURCES[/COLOR]" default="false"/>
+		<setting id="save_favourites" type="bool" label="[COLOR blue]SAVE FAVOURITES[/COLOR]" default="false"/>
+		<setting id="save_advancedsettings" type="bool" label="[COLOR blue]SAVE ADVANCEDSETTINGS[/COLOR]" default="false"/>
+	</category>
+
+</settings>
