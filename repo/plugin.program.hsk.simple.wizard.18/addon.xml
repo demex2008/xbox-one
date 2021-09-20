@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.hsk.simple.wizard.18"
+		name="[COLOR blue]HSK-SIMPLE-WIZARD Kodi18[/COLOR]"
+		version="18.0.07"
+		provider-name="[COLOR blue]Loki1979[/COLOR]">
+	<requires>
+		<!--py2 compliant-->
+		<import addon="xbmc.python" version="2.25.0"/>
+		<!--py3 compliant-->
+		<!--<import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>-->
+		<!--<import addon="xbmc.python" version="2.25.0"/>-->
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="resources/pys/wizard.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary>Einfach Schnell Simpel, HSK-SIMPEL-WIZARD !</summary>
+	<description>HSK Simpel Wizard für Kodi 18 !!! [COLOR blue]Created by Loki1979[/COLOR] [COLOR blue]18.09.2021 09:30 PYTHON 2 AND 3[/COLOR]</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news>Update 18.09.21</news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<screenshot>resources/screenshot-01.jpg</screenshot>
+		<screenshot>resources/screenshot-02.jpg</screenshot>
+		<screenshot>resources/screenshot-03.jpg</screenshot>
+	</assets>
+	</extension>
+</addon>
