@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.hsk.repo.18" name="[COLOR blue]HSK-DE Repository Kodi 18[/COLOR] " version="1.0.30" provider-name="Loki1979,HSK-DE">
+	<extension point="xbmc.addon.repository" name="HSK-DE Repository">
+		<dir>
+		  <info compressed="false">https://downloads.guidos-skinbase.de/hsk.repo.18/addons.xml</info>
+		  <checksum>https://downloads.guidos-skinbase.de/hsk.repo.18/addons.xml.md5</checksum>
+		  <datadir zip="true">https://downloads.guidos-skinbase.de/hsk.repo.18/</datadir>
+		</dir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+	<summary>HSK-De Repo Kodi 18</summary>
+	<description>Die HSK Repo für Kodi 18.</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+    <assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
