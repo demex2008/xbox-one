@@ -4950,6 +4950,107 @@ https://www.kinox.to</description>
 	</assets>
 	</extension>
   </addon>
-</addons>
+	
+  <addon id="plugin.video.hdfilme.cc"
+		name="[COLOR lime]HD-Filme.cc[/COLOR]"
+		version="1.2.1"
+		provider-name="Loki1979">
+	<requires>
+        <import addon="xbmc.python" version="2.7.13" />
+		<import addon="script.module.hsk.de"/>
+		<import addon="script.module.hls.cache"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary>150320201230</summary>
+	<description>Umsetzung der Website:
+
+	https://hdfilme.cc</description>
+	<disclaimer></disclaimer>
+	<language>de</language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+  </addon>
+  
+  <addon id="plugin.video.filmpalast_to" name="FilmPalast" version="1.1.2" provider-name="Lary_Loose | HSK-FIX">
+    <requires>
+        <import addon="xbmc.python" version="2.7.13" />
+        <!-- choose your resolver -->
+
+		<!-- <import addon="script.module.resolveurl"/> -->
+		<import addon="script.module.urlresolver"/>
+
+        <!-- choose your resolver -->
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">FilmPalast.to FiLME &amp; SERiEN sofort &amp; kostenlos online ansehen!</summary>
+        <summary lang="en">FilmPalast.to MOViS &amp; SERiES, watch online instantly &amp; free!</summary>
+        <description lang="de"></description>
+        <description lang="en"></description>
+    </extension>
+</addon>
+	
+<addon id="plugin.video.xcine.tv"
+		name="[COLOR gold]X-Cine.tv[/COLOR]"
+		version="1.2.0"
+		provider-name="Loki1979">
+	<requires>
+        <import addon="xbmc.python" version="2.7.13" />
+		<import addon="script.module.hsk.de"/>
+		<import addon="script.module.hls.cache"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary>250520200240</summary>
+	<description>Umsetzung der Website:
+https://xcine.tv</description>
+	<disclaimer></disclaimer>
+	<language>de</language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+    </addon>
+  </addons>
+	
+	
+
+
+
+
+
+
 
 
