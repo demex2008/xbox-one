@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+	<category label="[COLOR blue]Settings[/COLOR]">
+		<setting id="save_sources" type="bool" label="[COLOR blue]SAVE SOURCES[/COLOR]" default="false"/>
+		<setting id="save_favourites" type="bool" label="[COLOR blue]SAVE FAVOURITES[/COLOR]" default="false"/>
+		<setting id="save_advancedsettings" type="bool" label="[COLOR blue]SAVE ADVANCEDSETTINGS[/COLOR]" default="false"/>
+	</category>
+</settings>
