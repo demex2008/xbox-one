@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.kinox.to"
-		name="[COLOR lime]KinoX[/COLOR]"
-		version="1.0.5"
+		name="[COLOR blue]Kinox.to[/COLOR]"
+		version="1.0.6"
 		provider-name="Loki1979 | HSK-DE">
 	<requires>
 		<import addon="xbmc.python" version="2.7.13" />
