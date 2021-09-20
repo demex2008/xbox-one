@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hsk.wizard18.pro"
+	name="[COLOR blue]HSK WIZARD PRO[/COLOR]"
+	version="1.0.0~beta18" 
+	provider-name="Loki1979">
+	<requires>
+		<!--py2 compliant-->
+		<!--<import addon="xbmc.python" version="2.25.0"/>-->
+		<!--py3 compliant-->
+		<!--<import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>-->
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.inputstreamhelper" version="0.4.7"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.webinterface"/>
+	<extension point="xbmc.addon.metadata">
+	<summary>[COLOR blue]Created by loki1979[/COLOR]</summary>
+	<description>HSK WIZARD PRO für Kodi 18 ![COLOR blue]21.06.2020 07:00 PYTHON 2 AND 3[/COLOR]</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<screenshot>resources/screenshot01.jpg</screenshot>
+		<screenshot>resources/screenshot02.jpg</screenshot>
+		<screenshot>resources/screenshot03.jpg</screenshot>
+		<screenshot>resources/screenshot04.jpg</screenshot>
+		<screenshot>resources/screenshot05.jpg</screenshot>
+		<screenshot>resources/screenshot06.jpg</screenshot>
+		<screenshot>resources/screenshot07.jpg</screenshot>
+		<screenshot>resources/screenshot08.jpg</screenshot>
+		<screenshot>resources/screenshot09.jpg</screenshot>
+		<screenshot>resources/screenshot10.jpg</screenshot>
+	</assets>
+	</extension>
+</addon>
