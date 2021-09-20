@@ -1148,38 +1148,6 @@ https://www.facebook.com/groups/hskde/</description>
 	</extension>
 </addon>
 
-<addon id="plugin.program.hsk.simple.wizard"
-		name="[COLOR blue]HSK-SIMPLE-WIZARD Kodi 18[/COLOR]"
-		version="18.0.0"
-		provider-name="[COLOR blue]Loki1979[/COLOR]">
-	<requires>
-		<import addon="xbmc.python" version="2.7.13" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="resources/pys/wizard.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-	<summary>Einfach Schnell Simpel, HSK-SIMPEL-WIZARD !</summary>
-	<description>[COLOR blue]Created by Loki1979[/COLOR] [COLOR skyblue]20.02.2021 update python2+3[/COLOR]</description>
-	<disclaimer></disclaimer>
-	<language></language>
-	<platform>all</platform>
-	<license></license>
-	<forum></forum>
-	<website></website>
-	<email></email>
-	<source></source>
-	<news>Update 02.03.21</news>
-	<assets>
-		<icon>resources/icon.png</icon>
-		<fanart>resources/fanart.jpg</fanart>
-		<screenshot>resources/screenshot-01.jpg</screenshot>
-		<screenshot>resources/screenshot-02.jpg</screenshot>
-		<screenshot>resources/screenshot-03.jpg</screenshot>
-	</assets>
-	</extension>
-</addon>
-
 <addon id="plugin.program.indigo" version="6.0.00" name="[COLOR lime]Indigo[/COLOR]" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -1438,24 +1406,7 @@ https://www.facebook.com/groups/hskde/</description>
     <platform>all</platform>
   </extension>
 </addon>
-
-<addon id="plugin.program.X-Box.Wizard" name="[COLOR lime]XBOX Wizard[/COLOR]" version="1.9.3" provider-name="[COLOR gold]demex2008[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR gold]Strangers[/COLOR][COLOR lime] XBOX[/COLOR][COLOR gold].Wizard[/COLOR]</summary>
-	<description lang="en">[COLOR gold]Strangers[/COLOR][COLOR lime] XBOX[/COLOR][COLOR gold].Wizard[/COLOR]</description>
-		<disclaimer lang="en"></disclaimer>
-		<platform>all</platform>
-		<website></website>
-	</extension>
-</addon>
-
+	
 <addon id="plugin.program.xBoxGhost" name="[COLOR lime]Ghost XBOX [/COLOR]"
 version="2.0.2" provider-name="Ghost">
   <requires>
@@ -4867,7 +4818,7 @@ provider-name="[COLOR blue]Loki1979[/COLOR]">
 </addon>
 
 <addon id="plugin.video.hdfilme.cx"
-		name="[COLOR ]HD-Filme[/COLOR]"
+		name="[COLOR ime]HD-Filme.cx[/COLOR]"
 		version="1.2.5"
 		provider-name="Loki1979">
 	<requires>
@@ -4881,7 +4832,7 @@ provider-name="[COLOR blue]Loki1979[/COLOR]">
 	<extension point="xbmc.addon.metadata">
 	<summary>150320201230</summary>
 	<description>Umsetzung der Website:
-https://hdfilme.cc</description>
+https://hdfilme.cx</description>
 	<disclaimer></disclaimer>
 	<language>de</language>
 	<platform>all</platform>
@@ -4902,7 +4853,7 @@ https://hdfilme.cc</description>
 </addon>
 
 <addon id="plugin.video.xcine.me"
-		name="[COLOR ]X-Cine[/COLOR]"
+		name="[COLOR gold]X-Cine.me[/COLOR]"
 		version="1.2.5"
 		provider-name="Loki1979">
 	<requires>
@@ -4916,7 +4867,7 @@ https://hdfilme.cc</description>
 	<extension point="xbmc.addon.metadata">
 	<summary>250520200240</summary>
 	<description>Umsetzung der Website:
-https://xcine.tv</description>
+https://xcine.me</description>
 	<disclaimer></disclaimer>
 	<language>de</language>
 	<platform>all</platform>
